@@ -10,8 +10,6 @@ Built by **xycaerys**.
 ---
 
 ## ⚡ Features
-- 🔥 Neon glitch ASCII banner  
-- ⚡ Typing animation  
 - 📨 Email breach lookup using LeakCheck Public API  
 - 🧩 JSON output mode  
 - 🎨 Colorful formatted terminal output  
@@ -19,17 +17,11 @@ Built by **xycaerys**.
 
 ---
 
-## 🔧 Requirements
-
-Add this to `requirements.txt`:
-
-requests  
-colorama   # optional for Windows CMD
-
 Install:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## ▶️ Usage
 
