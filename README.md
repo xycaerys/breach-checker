@@ -26,13 +26,18 @@ pip install -r requirements.txt
 ## ▶️ Usage
 
 ### ▶️ Basic Usage
+```bash
 python breach.py someone@example.com
-
+```
 ### ▶️ Interactive Mode (no email passed)
+```bash
 python breach.py
+```
 
 Tool will ask:
+```bash
 [?] Enter email to check:
+```
 
 ### ▶️ JSON Output
 python breach.py someone@example.com --json
@@ -45,7 +50,7 @@ BREACH sends a GET request to:
 https://leakcheck.io/api/public?check=<email>
 
 Example response:
-{
+```bash{
   "success": true,
   "found": 3,
   "fields": ["username", "address", "password"],
@@ -54,7 +59,7 @@ Example response:
       {"name": "LinkedIn", "date": "2012"}
   ]
 }
-
+```
 BREACH displays:
 - Breach count
 - Exposed data fields
