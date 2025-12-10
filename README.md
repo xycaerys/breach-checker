@@ -1,4 +1,4 @@
-# 🔥 BREACH — Email Breach Checker (LeakCheck Public API)
+# 🔥 BREACH, Email Breach Checker (LeakCheck Public API)
 
 `breach.py` is a neon-styled, animated terminal tool that checks if an email appears in public data breaches using the **LeakCheck.io Public API**.  
 → No API key required  
